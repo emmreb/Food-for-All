@@ -1,3 +1,56 @@
+.body{
+    margin: 0;
+}
+
+.first{
+    background-image: url(https://tctechcrunch2011.files.wordpress.com/2015/10/lukethistlefbcover.png?w=738);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.go{
+    margin-top: 50px;
+    opacity: 0.5;
+    margin-left: 150px;
+    margin-right: 300px;
+}
+
+
+.featured{
+    margin-top: 150px;
+    margin-left: 150px;
+    padding-right: 200px;
+}
+
+.text {
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 5vw;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.top{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+
+
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
     margin-bottom: 0;
@@ -9,11 +62,25 @@ footer {
     background-color: #f2f2f2;
     padding: 25px;
 }
-
+.words{
+    font-size:30px;
+    vertical-align: middle;
+}
 .carousel-inner img {
-    width: 100%; /* Set width to 100% */
+    width: 100%;
     margin: auto;
     min-height:200px;
+}
+.carousel-caption {
+    max-width: 550px;
+    padding: 0 20px;
+    margin:0 auto;
+    margin-top: 200px;
+    text-align:center;
+    color: #0f0f0f;
+}
+.row{
+    height: 400px;
 }
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -21,4 +88,38 @@ footer {
     .carousel-caption {
         display: none;
     }
+}
+
+.video{
+    margin-top: -10px;
+    position: relative;
+    padding-bottom:56.25%;
+    padding-top:1px;
+    height:0;
+    overflow:hidden;
+
+}
+.video iframe, .video object, .video embed{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.video:hover {
+    infinite;
+    paused;
+    /* Toggle our animation play state to running when we are hovering over our sticker */
+    animation-play-state: running;
+}
+.text.smaller{
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 41px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.container.text-center .steps{
+    font-size: 28px;
+    color: #5DF4FE;
+    font-family: 'Ubuntu', sans-serif;
 }
